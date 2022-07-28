@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Work Order</h2>
+    <form action="results.html" method="GET">
+        <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="John">
+        </div>
+        <div>
+        <label>Password</label>
+        <input type="password" name="password">
+        </div>
+        <div>
+        <label for="project-type">Choose a project type:</label> 
+        <select name="project-type" id="project-type">
+            <option value="Current Home-Getting Ready to Put on the Market!">Current Home-Getting Ready to Put on the Market!</option>
+            <option value="Current Home-Maintenance/Repairs">Current Home-Maintenance/Repairs</option>
+            <option value="Current Home-Renovations/Upgrades">Current Home-Renovations/Upgrades</option>
+            <option value="Recently Purchased Home-Inspection Report Items/Maintenance">Recently Purchased Home-Inspection Report Items/Maintenance</option>
+            <option value="Recently Purchased Home-Renovations/Upgrades">Recently Purchased Home-Renovations/Upgrades</option>
+            <option value="Other: (fill in blank)">Other: (fill in blank)</option>
+        </select>
+        </div>
+        <div>
+            <h3>Tell us about your Project!. (Please include as many details as possible. Any pictures of dimensions you can proovide are greatly appreciated!)</h3>
+            <h4>Before Pictures</h4>
+            <button>before button</button>
+            <h4>After pictures</h4>
+            <button>after pictures</button>
+        </div>
+        <div>
+            <label>Do you have any specific material requests to be used on your project?</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>When are you looking to have project completed?</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="contact-method">What is the best way to contact you?</label>
+            <select name="contact-method" type="contact-method">
+                <option value="Phone Call">Phone</option>
+                <option value="Email">Email</option>
+            </select>
+        </div>
+        <button type="reset"> Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
